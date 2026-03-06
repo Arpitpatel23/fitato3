@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://fitatofoods.com/sitemap.xml

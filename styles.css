@@ -295,7 +295,7 @@ summary { font-weight: 700; cursor: pointer; }
   justify-content: space-between;
   align-items: center;
   gap: 0.8rem;
-  color: var(--text);
+  color: var(--accent);
   font-size: 0.93rem;
 }
 .footer-content div {

@@ -298,6 +298,12 @@ summary { font-weight: 700; cursor: pointer; }
   color: var(--muted);
   font-size: 0.93rem;
 }
+.footer-content div {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-weight: 600;
+}
 
 .blog-hero { padding-top: 6.1rem; }
 .pill {
@@ -366,4 +372,22 @@ summary { font-weight: 700; cursor: pointer; }
 
 .social-icons a:hover {
   color: #ff6600;
+}
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
 }

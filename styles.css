@@ -288,14 +288,14 @@ summary { font-weight: 700; cursor: pointer; }
 .footer {
   padding: 1.3rem 0;
   border-top: 1px solid var(--line);
-  background: #fff;
+  background: #f8f4ed;
 }
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 0.8rem;
-  color: var(--muted);
+  color: var(--text);
   font-size: 0.93rem;
 }
 .footer-content div {
